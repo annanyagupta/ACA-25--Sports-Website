@@ -1,0 +1,124 @@
+.header{
+    padding:20px;
+    height:100vh;
+    background:url("liprofile-656x369.png")  no-repeat center;
+    background-size:cover;
+    position:relative;
+    margin:0ch;
+    }
+ul{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
+ul li{
+    list-style:none;
+
+}
+ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(197, 135, 135);
+    font-size: 48px;
+    text-decoration:wavy;
+    padding:50px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    margin:0px;
+}
+ul li a:hover {
+    border-bottom-style:dashed;
+}
+h3{
+    padding-top:20%;
+    font-family:italic ;
+    font-weight: bold;
+    font-size: 300%;
+    margin:0 auto;
+    text-align:center;
+    letter-spacing: 5px;
+    color:rgb(250, 207, 207);
+}
+.time ul{
+list-style:none;
+padding:50px;
+
+}
+body{
+    background:url("liprofile-656x369.png") ;
+    margin:0px;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    background-position:'center';
+    background-size:cover;
+
+}
+.intro {
+    padding: 100px 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
+  .timeline ul {
+    list-style-type:none;
+    padding: 50px 0;
+  }
+  
+  .timeline ul li
+  {
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #fff;
+  }
+  
+  .timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    background: #F45B69;
+  }
+  
+  .timeline ul li:nth-child(odd) div {
+    left: 45px;
+    transform: translate3d(200px, 0, 0);
+  }
+  
+  .timeline ul li:nth-child(even) div {
+    left: -439px;
+    transform: translate3d(-200px, 0, 0);
+  }
+  
+  time
+  {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .timeline ul li div
+  {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+  }
+  
+  .timeline ul li.in-view div
+  {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+  }
+  
